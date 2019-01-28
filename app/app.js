@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import MenuList from './component/menuList'
 
 class App extends React.Component{
 
   render(){
 
 return (<div>
-我是62
+  <MenuList></MenuList>
 </div>)
 
   }
