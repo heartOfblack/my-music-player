@@ -9,4 +9,4 @@ npm run dev
 安装完毕，拖动音乐文件到左侧，双击播放
 
 ### 界面
-![show](https://github.com/heartOfblack/my-music-player/tree/master/asset/show.png)
+![show](https://raw.githubusercontent.com/heartOfblack/my-music-player/master/asset/show.png)
