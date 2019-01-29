@@ -9,4 +9,7 @@ npm run dev
 安装完毕，拖动音乐文件到左侧，双击播放
 
 ### 界面
+<iframe src="https://raw.githubusercontent.com/heartOfblack/my-music-player/master/asset/GIF.gif" width="1200" height="500"></iframe>
+
+
 ![show](https://raw.githubusercontent.com/heartOfblack/my-music-player/master/asset/show.png)
