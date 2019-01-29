@@ -4,18 +4,19 @@ class Store{
 
 constructor(){
 
-this.localMusicStore=JSON.parse(localStorage.getItem(musicStore))||{"a":'d://a.mp3',"ac":'d://ac.mp3'};
-
+this.localMusicStore=JSON.parse(localStorage.getItem(musicStore))||{};
 }
 
-addMusic=(fileData)=>{
-
-this.localMusicStore[fileData.fileName]=fileData.filePath;
-
+addMusic=(fileDatas)=>{
+  fileDatas.map(item=>{
+    this.localMusicStore[item.fileName]=item.filePath;
+  })
+this.saveLocalStore();
 }
 
-deleteMusic=(fileData)=>{
-delete this.localMusicStore[fileData.fileName];
+deleteMusic=(fileName)=>{
+delete this.localMusicStore[fileName];
+this.saveLocalStore();
 }
 
 

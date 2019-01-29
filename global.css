@@ -1,0 +1,29 @@
+.app{
+  display: grid;
+  grid-template: "left canva" 
+              "left controller";
+  grid-template-rows: 1fr .2fr;
+  grid-template-columns: .2fr 1fr;
+  
+  
+  }
+  
+  .left{
+  grid-area: left;
+  
+  }
+  
+  .canvas{
+    grid-area: canva;
+  width: inherit;
+  height: inherit;
+  background: gainsboro;
+  }
+  
+  .controller{
+    grid-area: controller;
+    width: inherit;
+    height: inherit;
+  
+  }
+  

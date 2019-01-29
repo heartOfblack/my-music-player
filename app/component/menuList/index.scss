@@ -1,6 +1,20 @@
-.left{
+.music-li {
+  cursor: pointer;
+  position: relative;
+  list-style-type: none;
+  -webkit-user-select: none;
 
-height: 100%;
-width: 5rem;
+  -moz-user-select: none;
+
+  -ms-user-select: none;
+
+  user-select: none;
+
+  p{
+    display: inline;
+    position: relative;
+    left: 20px;
+
+  }
 
 }
