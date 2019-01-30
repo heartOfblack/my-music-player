@@ -12,5 +12,3 @@ npm run dev
 ### 界面
 ![img](https://raw.githubusercontent.com/heartOfblack/my-music-player/master/asset/GIF.gif?v=1)
 
-
-![show](https://raw.githubusercontent.com/heartOfblack/my-music-player/master/asset/show.png)
